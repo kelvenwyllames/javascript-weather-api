@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box-search {
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        .fa-location-dot {
+            font-size: 34px;
+            color: #fff;
+        }
+
+        #city-name-search {
+            width: 293px;
+            height: 41px;
+            border: none;
+            border-radius: 40px;
+            text-align: center;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(20px);
+        }
+
+        input:focus {
+            outline: 0;
+        }
+
+        button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            transition: 600ms;
+        }
+
+        button:hover {
+            transform: scale(0.94);
+        }
+    }
+}
