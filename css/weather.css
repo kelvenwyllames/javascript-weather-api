@@ -19,9 +19,9 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        border-radius: 25px;
+        border-radius: 25px 0 0 25px;
         color: #fff;
-        /* background: #4747d7; */
+        background: #4747d7;
 
         #name-of-the-city {
             font-size: 27px;
@@ -65,6 +65,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 0 25px 25px 0;
+        background: #646363dd;
 
         .weather-information {
             display: flex;
